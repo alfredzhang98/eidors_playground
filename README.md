@@ -47,7 +47,7 @@ A MATLAB GUI for interactive electrical impedance tomography (EIT) simulation an
    addpath(genpath('path/to/eidors'));
    startup_eidors;
    addpath(genpath('path/to/EIDORS-Interactive-UI'));
-````
+  ```
 
 3. **Verify** EIDORS is working by running:
 
@@ -153,7 +153,7 @@ The main window will open:
 
 ## License
 
-This project is released under the MIT License. See [LICENSE](LICENSE) for details.
+This project is released under the MIT License.
 
 ---
 
