@@ -1,5 +1,5 @@
 <deployment-project plugin="plugin.apptool" plugin-version="1.0">
-  <configuration build-checksum="2708866370" file="/Users/alfred/Desktop/eit/eidors-v3.12-ng/eidors/project/EIDORS_PLAYGROUND.prj" location="/Users/alfred/Desktop/eit/eidors-v3.12-ng/eidors/project" name="EIDORS_PLAYGROUND" target="target.mlapps" target-name="Package App">
+  <configuration build-checksum="1053892193" file="/Users/alfred/Desktop/eit/eidors-v3.12-ng/eidors/project/EIDORS_PLAYGROUND.prj" location="/Users/alfred/Desktop/eit/eidors-v3.12-ng/eidors/project" name="EIDORS_PLAYGROUND" target="target.mlapps" target-name="Package App">
     <param.appname>EIDORS_PLAYGROUND</param.appname>
     <param.authnamewatermark>Alfred</param.authnamewatermark>
     <param.email>alfred.zhang98@gmail.com</param.email>
@@ -228,7 +228,9 @@
       <file>${PROJECT_ROOT}/eidors/tools/unit_test_cmp.m</file>
       <file>${PROJECT_ROOT}/eidors/tools/vectorize_inverse.m</file>
     </fileset.depfun>
-    <fileset.resources />
+    <fileset.resources>
+      <file>${PROJECT_ROOT}/eidors</file>
+    </fileset.resources>
     <fileset.package />
     <build-deliverables>
       <file location="/Users/alfred/Desktop/eit/eidors-v3.12-ng/eidors" name="project" optional="false">/Users/alfred/Desktop/eit/eidors-v3.12-ng/eidors/project</file>
